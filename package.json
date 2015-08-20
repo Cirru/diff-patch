@@ -1,0 +1,27 @@
+{
+  "name": "cirru-diff-patch",
+  "version": "0.0.1",
+  "description": "Diff/Patch for Cirru Syntax Tree.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "cirru-script test/simple.cirru"
+  },
+  "keywords": [
+    "cirru",
+    "diff",
+    "patch"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "dependencies": {
+    "type-of": "^2.0.1"
+  },
+  "devDependencies": {
+    "cirru-script": "^0.2.3",
+    "gulp": "^3.9.0",
+    "gulp-cirru-script": "^0.1.4"
+  }
+}
