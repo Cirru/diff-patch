@@ -1,6 +1,7 @@
 
 var
   diff $ require :../src/diff
+  patch $ require :../src/patch
 
 var a $ [] :a :b :c
   [] :d :e :f
@@ -13,4 +14,8 @@ var b $ [] :a :b :c
   , :i
   [] :2
 
-console.log $ JSON.stringify (diff a b)
+var change $ diff a b
+console.log :a $ JSON.stringify a
+console.log :b $ JSON.stringify b
+console.log :change $ JSON.stringify change
+console.log :b $ JSON.stringify $ patch a change

@@ -2,7 +2,7 @@
   "name": "cirru-diff-patch",
   "version": "0.0.1",
   "description": "Diff/Patch for Cirru Syntax Tree.",
-  "main": "lib/index.js",
+  "main": "lib/diff.js",
   "directories": {
     "test": "test"
   },
@@ -23,5 +23,13 @@
     "cirru-script": "^0.2.3",
     "gulp": "^3.9.0",
     "gulp-cirru-script": "^0.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cirru/diff-patch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cirru/diff-patch/issues"
+  },
+  "homepage": "https://github.com/Cirru/diff-patch#readme"
 }
